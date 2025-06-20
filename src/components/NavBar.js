@@ -40,9 +40,9 @@ export default function NavBar() {
           </div>
           <div className="flex shrink-0 items-center justify-center md:justify-start">
             <img
-              alt="Your Company"
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=cyan&shade=500"
-              className="h-8 w-auto"
+              alt="Travis Stirling"
+              src="/portfolio-logo.png"
+              className="h-16 w-auto"
             />
           </div>
           <div className="hidden md:flex space-x-4">
@@ -63,7 +63,7 @@ export default function NavBar() {
             ))}
           </div>
           <div className="flex items-center justify-end">
-            <Button className="rounded-md bg-gradient-to-r from-cyan-400 to-cyan-600 px-4 py-2 text-sm text-white data-hover:from-cyan-500 data-hover:to-cyan-700 data-hover:data-active:from-cyan-700">
+            <Button className="rounded-lg bg-gradient-to-r from-cyan-400 to-cyan-600 px-4 py-2 text-sm text-white data-hover:from-cyan-500 data-hover:to-cyan-700 data-hover:data-active:from-cyan-700">
               Hire Me
             </Button>
           </div>
